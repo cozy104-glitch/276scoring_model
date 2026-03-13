@@ -9,12 +9,10 @@ System Architecture & Repository Structure
 
 본 레포지토리는 모델의 진화 과정(Phase 1 $\rightarrow$ 3)에 따라 구조화되어 있으며, 각 폴더는 독립적인 R&D 마일스톤을 나타냅니다.
 
-text
-/276_Scoring_Model
-├── 📁 01_manual_classification   # [Phase 1] 심사역 행동 모사 엔진 및 리스크 사각지대 탐색
-├── 📁 02_flowscore_ml_ver1       # [Phase 2] 이기종 데이터 스키마 매핑 및 Feature Mart 인프라
-├── 📁 03_flowscore_ml_ver2       # [Phase 3] Target Leakage 차단 및 SMOTE 검증 하이브리드 엔진
-└── 📁 raw_data                   # 데이터 보안을 위한 원천 DB 스키마 분리 (Local Only)
+[Phase 1] 심사역 행동 모사 엔진 및 리스크 사각지대 탐색
+[Phase 2] 이기종 데이터 스키마 매핑 및 Feature Mart 인프라
+[Phase 3] Target Leakage 차단 및 SMOTE 검증 하이브리드 엔진
+
 
 Phase 1: Baseline Audit & Human-Mimic Engine
 
@@ -71,9 +69,3 @@ Target Variable (Y) Definition Strategy
 Author: 임지훈
 
 Date: 2026. 03. 13.
-
----
-
-이 백서 형태의 README는 깃허브 메인 페이지를 하나의 완벽한 기술 포트폴리오로 만들어 줍니다. 이 내용을 복사해서 로컬의 `README.md`에 붙여넣으신 후, 위에서 성공했던 `git add .`, `git commit -m "docs: update comprehensive whitepaper README"`, `git push origin main` 3단계를 수행하시면 깃허브에 화려하게 업데이트됩니다!
-
-추가로 백서 내용 중 특정 숫자를 덜어내거나 더 강조하고 싶은 분석 포인트가 있으신가요?
