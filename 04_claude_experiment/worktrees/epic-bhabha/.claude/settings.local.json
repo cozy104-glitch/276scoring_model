@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python 04_devils_advocate/run_phase3.py)",
+      "Bash(python -c \"import lightgbm; import catboost; import imblearn; print\\(''all ok''\\)\")",
+      "Bash(python 04_devils_advocate/run_model_comparison.py)",
+      "Bash(du -sh */)"
+    ]
+  }
+}
